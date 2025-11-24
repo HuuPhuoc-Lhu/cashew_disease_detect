@@ -17,7 +17,7 @@ st.markdown("""
 @st.cache_resource
 def load_models():
     classify_path = "D:/cashew_yolo/ptud/runs/classify/cashew_classification/weights/best.pt"  
-    detect_path = "D:/cashew_yolo/PTUD.v3i.yolov8/runs/detect/cashew_disease_detect/weights/best.pt"      
+    detect_path = "D:/cashew_yolo/PTUD.yolov8/runs/detect/cashew_disease_detect/weights/best.pt"      
 
     try:
         classify_model = YOLO(classify_path)

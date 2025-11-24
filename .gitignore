@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data / outputs, adjust if you do want to track some
+runs/
+logs/
+
+# Large model weights (avoid committing)
+*.pt
+*.pth
+
+# Images/labels may be large; uncomment if you prefer to ignore dataset folders
+# PTUD.yolov8/train/
+# PTUD.yolov8/valid/
+# PTUD.yolov8/test/
+
+# Ignore env files containing secrets
+.env.local
+.env.*.local
+
+# Editor swap/temp files
+*~
+*.swp
+
+# Wheel build metadata
+pip-wheel-metadata/
+
+# Optional: ignore compiled Cython files
+*.c
+
+# End of file
